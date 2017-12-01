@@ -1,0 +1,514 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+body {
+line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+display:block;
+}
+
+nav ul {
+list-style:none;
+}
+
+blockquote, q {
+quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+content:'';
+content:none;
+}
+
+a {
+margin:0;
+padding:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+background-color:#ff9;
+color:#000;
+text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+background-color:#ff9;
+color:#000; 
+font-style:italic;
+font-weight:bold;
+}
+
+del {
+text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+border-bottom:1px dotted;
+cursor:help;
+}
+
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+display:block;
+height:1px;
+border:0; 
+border-top:1px solid #cccccc;
+margin:1em 0;
+padding:0;
+}
+
+input, select {
+vertical-align:middle;
+}
+
+/*//MyCodes//*/
+body{
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	max-width: 1600px;
+	overflow-x:hidden;
+}
+#header_top {
+    background-color: #0e97db;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+#text_area p{
+	font-family: roboto;
+	font-weight: bolder;
+	font-size: 30%;
+	color: rgb(254,249,248);
+	text-align: center;
+}
+li .active {
+    color: #fff;
+    background-color: #6195fd;
+}
+.navbar {
+    border-radius: 0px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: rgb(254,251,248);
+}
+.navbar-nav {
+    margin: 0px -1px;
+    padding: 0px 42px;
+}
+.navbar-nav li {
+    float: left;
+    margin: 0 30px;
+}
+ 
+ .navbar-inverse .navbar-nav .active a:hover {
+    color: #fff;
+    background-color: #328399;
+}
+.active{
+	background-color: #328399;
+}
+.parallax {
+    background-image: url(../img/back.jpg);
+    min-height: 300px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#blue{
+	background-color: #6adae5;
+	width: 100%;
+	padding: 20px;
+}
+#blue a {
+    color: white;
+
+}
+#blue a:hover{
+	color: black;
+	text-decoration: none;
+	
+}
+#get h1{
+	color: white;
+}
+#message textarea{
+	width: 100%;
+    
+     border-radius: 10px;
+     margin-top: 20px;
+     color: #7b7dda;
+     font-style:"imprint MT shadow";
+     font-size: 20px;
+      position: relative;
+}
+#message input{
+    position: absolute;
+    z-index: 50;
+    bottom: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+
+}
+#gps img{
+	
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+#location p{
+	color: white;
+	font-size: 15px;
+	text-align: center;
+
+}
+#footer{
+	background-color:#0e97db;
+	
+
+}
+#footer p{
+	
+	margin: 0px;
+	color: white;
+	font-style: bold;
+
+}
+#logo{
+	color: white;
+	font-size: 20px;
+}
+/*body {
+    background-image: url(../img/doc.jpeg);
+    background-attachment: fixed;
+}*/
+
+#blue {
+    background-color: #acdffd;
+    height: 100%;
+    padding: 0px;
+    width: 100%;
+}
+.navbar-inverse {
+    background-color: #222;
+    border-color: #acdffd;
+}
+#blue a{
+	color: white;
+
+}
+#blue a:hover{
+	color: black;
+	
+}
+.navbar-inverse .navbar-brand {
+    color: #5cb85c;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h2{
+	color:#fff;
+	font-family:Open sans;
+	margin-top:40px;
+}
+
+.img-responsive{
+	width:100%;
+}
+
+input[type=text], select, textarea {
+    width: 70%;
+    padding: 12px;
+    border:none;
+    border-radius: 10px;
+    margin:0px 0px 0px 15px;
+      
+}
+
+input[type=submit] {
+    background-color: #03a9f4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    float:right;
+    margin:50px 50px;
+}
+
+input[type=submit]:hover {
+ background-color: #0E97DB;
+}
+#Hospital{
+	
+	margin:0px 0px 0px 40px;
+}
+
+#Dr{
+	
+	margin:0px 0px 0px 40px;
+}
+
+footer {
+    background-color: #0E97DB;
+    height: 100%;
+    color: #fff;
+    font-family: Open sans;
+    padding-top: 20px;
+    font-size: 18px;
+    max-width: 1600px;
+    padding-bottom: 0px;
+}
+.parallax {
+    background-image: url("../img/back.jpg");
+    min-height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#blue{
+	background-color: #6adae5;
+	width: 100%;
+	padding: 20px;
+}
+#blue a {
+    color: white;
+
+}
+#blue a:hover{
+	color: black;
+	text-decoration: none;
+	
+}
+#get h1{
+	color: white;
+}
+#message textarea{
+	width: 100%;
+    
+     border-radius: 10px;
+     margin-top: 20px;
+     color: #7b7dda;
+     font-style:"imprint MT shadow";
+     font-size: 20px;
+      position: relative;
+}
+#message input{
+    position: absolute;
+    z-index: 50;
+    bottom: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+
+}
+#gps img{
+	
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+#location p{
+	color: white;
+	font-size: 15px;
+	text-align: center;
+
+}
+#footer{
+	background-color:#0e97db;
+	margin: 0px;
+	
+
+}
+#footer p{
+	
+	margin-top: 10px;
+	color: white;
+	font-style: bold;
+
+}
+#logo{
+	color: white;
+	font-size: 20px;
+}
+body{
+	background-image:url(../images/bg.jpg);
+	background-attachment:fixed;
+
+}
+
+
+#blue{
+	background-color: #6adae5;
+	width: 100%;
+	padding: 20px;
+}
+#blue a{
+	color: white;
+
+}
+#blue a:hover{
+	color: black;
+	
+}
+
+h2{
+	color:#fff;
+	font-family:Open sans;
+	margin-top:40px;
+}
+
+.img-responsive{
+	width:100%;
+}
+
+input[type=text], select, textarea {
+    width: 70%;
+    padding: 12px;
+    border:none;
+    border-radius: 10px;
+    margin:0px 0px 0px 15px;
+      
+}
+
+input[type=submit] {
+    background-color: #000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    float:right;
+    margin:50px 50px;
+}
+
+input[type=submit]:hover {
+ background-color: #6adae5;
+}
+#Hospital{
+	
+	margin:0px 0px 0px 40px;
+}
+
+#Dr{
+	
+	margin:0px 0px 0px 40px;
+}
+
+footer{
+background-color: #0e97db;
+	min-height:50px;
+	color:#fff;
+	font-family:Open sans;
+	padding-top:20px;
+	font-size:18px;
+	
+}
+
+ 
+  	.container-3d {
+		height: 254px;
+		margin: 0 auto;
+		position: relative;
+		overflow:hidden;
+
+	}
+
+	.panel.panel-default {
+		border: 0;
+	}
+
+	
+
+	.front {
+		position: absolute;
+		transform: rotateY(0deg);
+		z-index: 1;
+		transition: all 1.5s ease 0s;
+		transform-style: preserve-3d;
+		backface-visibility:hidden;
+	}
+
+	.container-3d:hover .front {
+		position: absolute;
+		transform: rotateY(-180deg);
+	}
+
+	.back {
+		
+		backface-visibility:hidden;
+		
+		
+		position: absolute;
+	    transform: rotateY(180deg);
+		z-index: 0;
+		transition: all 1.5s ease 0s;
+		transform-style: preserve-3d;
+	}
+
+	.container-3d:hover .back {
+		transform: rotateY(0deg);
+	}
+
+	.back-wrap {
+		transform: translateZ(0px);
+	}
+
+  .panel-body{
+    text-align: right;
+    cursor: pointer;
+  }
+
+	.container-3d:hover .back {
+		-webkit-transform: rotateY(0deg);
+		transform: rotateY(0deg);
+	}
+
+#top{
+	
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
